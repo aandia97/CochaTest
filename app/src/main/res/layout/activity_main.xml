@@ -8,7 +8,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="24dp"
-            android:text="@string/pregunta_text" />
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/pregunta_text" android:baselineAligned="false"/>
     <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -17,12 +18,16 @@
                 android:id="@+id/verdad_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/verdad_button" />
+                android:textColor="@color/colorAccent"
+                android:textAllCaps="false"
+                android:text="@string/verdad_button"/>
         <Button
                 android:id="@+id/falso_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/falso_button" />
+                android:layout_width="99dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorPrimary"
+                android:textAllCaps="false"
+                android:text="@string/falso_button"/>
     </LinearLayout>
 
 </LinearLayout>
